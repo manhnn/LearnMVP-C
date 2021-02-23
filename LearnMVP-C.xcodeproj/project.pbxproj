@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253906A425E4AA1000998C53 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253906A325E4AA1000998C53 /* Cat.swift */; };
+		253906A825E4AA2600998C53 /* PetOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253906A725E4AA2600998C53 /* PetOwner.swift */; };
+		253906AB25E4AA4100998C53 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253906AA25E4AA4100998C53 /* AnimalType.swift */; };
+		253906AE25E4ABAC00998C53 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253906AD25E4ABAC00998C53 /* Dog.swift */; };
+		253906C525E4AF0100998C53 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253906C425E4AF0100998C53 /* DIContainer.swift */; };
 		25BA518825E4093B004495A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA518725E4093B004495A9 /* AppDelegate.swift */; };
-		25BA518A25E4093B004495A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA518925E4093B004495A9 /* SceneDelegate.swift */; };
-		25BA518C25E4093B004495A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA518B25E4093B004495A9 /* ViewController.swift */; };
-		25BA518F25E4093B004495A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BA518D25E4093B004495A9 /* Main.storyboard */; };
 		25BA519125E4093C004495A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BA519025E4093C004495A9 /* Assets.xcassets */; };
-		25BA519425E4093C004495A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BA519225E4093C004495A9 /* LaunchScreen.storyboard */; };
+		25BA51A225E409F9004495A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BA51A125E409F9004495A9 /* LaunchScreen.storyboard */; };
+		25BA51AB25E40AAA004495A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA51A925E40AAA004495A9 /* HomeViewController.swift */; };
+		25BA51AC25E40AAA004495A9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BA51AA25E40AAA004495A9 /* HomeViewController.xib */; };
+		25BA51B025E40B5C004495A9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA51AF25E40B5C004495A9 /* Category.swift */; };
+		25BA51B325E40BBB004495A9 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA51B225E40BBB004495A9 /* CategoryService.swift */; };
+		25BA51B625E40CA8004495A9 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BA51B525E40CA8004495A9 /* HomeViewPresenter.swift */; };
+		984AF9192F3158D5203E9936 /* Pods_LearnMVP_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2A63E1F4AE28BB2A95EA5C /* Pods_LearnMVP_C.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2A63E1F4AE28BB2A95EA5C /* Pods_LearnMVP_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnMVP_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253906A325E4AA1000998C53 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		253906A725E4AA2600998C53 /* PetOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner.swift; sourceTree = "<group>"; };
+		253906AA25E4AA4100998C53 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		253906AD25E4ABAC00998C53 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		253906C425E4AF0100998C53 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		25BA518425E4093B004495A9 /* LearnMVP-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearnMVP-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BA518725E4093B004495A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25BA518925E4093B004495A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25BA518B25E4093B004495A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25BA518E25E4093B004495A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25BA519025E4093C004495A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25BA519325E4093C004495A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25BA519525E4093C004495A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BA51A125E409F9004495A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BA51A925E40AAA004495A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		25BA51AA25E40AAA004495A9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		25BA51AF25E40B5C004495A9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		25BA51B225E40BBB004495A9 /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		25BA51B525E40CA8004495A9 /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
+		A71FA3B95828504CC69DD855 /* Pods-LearnMVP-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnMVP-C.debug.xcconfig"; path = "Target Support Files/Pods-LearnMVP-C/Pods-LearnMVP-C.debug.xcconfig"; sourceTree = "<group>"; };
+		D42004680FAFA2E9CD0CEC78 /* Pods-LearnMVP-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnMVP-C.release.xcconfig"; path = "Target Support Files/Pods-LearnMVP-C/Pods-LearnMVP-C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984AF9192F3158D5203E9936 /* Pods_LearnMVP_C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253906A225E4A9DF00998C53 /* MVP2 */ = {
+			isa = PBXGroup;
+			children = (
+				253906A325E4AA1000998C53 /* Cat.swift */,
+				253906AD25E4ABAC00998C53 /* Dog.swift */,
+				253906A725E4AA2600998C53 /* PetOwner.swift */,
+				253906AA25E4AA4100998C53 /* AnimalType.swift */,
+				253906C425E4AF0100998C53 /* DIContainer.swift */,
+			);
+			path = MVP2;
+			sourceTree = "<group>";
+		};
 		25BA517B25E4093B004495A9 = {
 			isa = PBXGroup;
 			children = (
 				25BA518625E4093B004495A9 /* LearnMVP-C */,
 				25BA518525E4093B004495A9 /* Products */,
+				8B0E81F0DD3A4C7AA2C8AE13 /* Pods */,
+				55B08A14C876D0B06B6220C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,67 @@
 		25BA518625E4093B004495A9 /* LearnMVP-C */ = {
 			isa = PBXGroup;
 			children = (
+				25BA51A525E40A33004495A9 /* MVP1 */,
+				253906A225E4A9DF00998C53 /* MVP2 */,
 				25BA518725E4093B004495A9 /* AppDelegate.swift */,
-				25BA518925E4093B004495A9 /* SceneDelegate.swift */,
-				25BA518B25E4093B004495A9 /* ViewController.swift */,
-				25BA518D25E4093B004495A9 /* Main.storyboard */,
 				25BA519025E4093C004495A9 /* Assets.xcassets */,
-				25BA519225E4093C004495A9 /* LaunchScreen.storyboard */,
+				25BA51A125E409F9004495A9 /* LaunchScreen.storyboard */,
 				25BA519525E4093C004495A9 /* Info.plist */,
 			);
 			path = "LearnMVP-C";
+			sourceTree = "<group>";
+		};
+		25BA51A525E40A33004495A9 /* MVP1 */ = {
+			isa = PBXGroup;
+			children = (
+				25BA51A625E40A3D004495A9 /* Model */,
+				25BA51A725E40A46004495A9 /* View */,
+				25BA51A825E40A4D004495A9 /* Presenter */,
+			);
+			path = MVP1;
+			sourceTree = "<group>";
+		};
+		25BA51A625E40A3D004495A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25BA51AF25E40B5C004495A9 /* Category.swift */,
+				25BA51B225E40BBB004495A9 /* CategoryService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25BA51A725E40A46004495A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25BA51A925E40AAA004495A9 /* HomeViewController.swift */,
+				25BA51AA25E40AAA004495A9 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25BA51A825E40A4D004495A9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				25BA51B525E40CA8004495A9 /* HomeViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		55B08A14C876D0B06B6220C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2A63E1F4AE28BB2A95EA5C /* Pods_LearnMVP_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B0E81F0DD3A4C7AA2C8AE13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71FA3B95828504CC69DD855 /* Pods-LearnMVP-C.debug.xcconfig */,
+				D42004680FAFA2E9CD0CEC78 /* Pods-LearnMVP-C.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BA519825E4093C004495A9 /* Build configuration list for PBXNativeTarget "LearnMVP-C" */;
 			buildPhases = (
+				9BEA6AF82B051F4FD734D90E /* [CP] Check Pods Manifest.lock */,
 				25BA518025E4093B004495A9 /* Sources */,
 				25BA518125E4093B004495A9 /* Frameworks */,
 				25BA518225E4093B004495A9 /* Resources */,
+				34E7CC3AC385B61E94D4EB87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,45 +211,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BA519425E4093C004495A9 /* LaunchScreen.storyboard in Resources */,
 				25BA519125E4093C004495A9 /* Assets.xcassets in Resources */,
-				25BA518F25E4093B004495A9 /* Main.storyboard in Resources */,
+				25BA51A225E409F9004495A9 /* LaunchScreen.storyboard in Resources */,
+				25BA51AC25E40AAA004495A9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E7CC3AC385B61E94D4EB87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnMVP-C/Pods-LearnMVP-C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnMVP-C/Pods-LearnMVP-C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnMVP-C/Pods-LearnMVP-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEA6AF82B051F4FD734D90E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnMVP-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25BA518025E4093B004495A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BA518C25E4093B004495A9 /* ViewController.swift in Sources */,
 				25BA518825E4093B004495A9 /* AppDelegate.swift in Sources */,
-				25BA518A25E4093B004495A9 /* SceneDelegate.swift in Sources */,
+				25BA51AB25E40AAA004495A9 /* HomeViewController.swift in Sources */,
+				253906C525E4AF0100998C53 /* DIContainer.swift in Sources */,
+				253906A425E4AA1000998C53 /* Cat.swift in Sources */,
+				253906A825E4AA2600998C53 /* PetOwner.swift in Sources */,
+				25BA51B025E40B5C004495A9 /* Category.swift in Sources */,
+				253906AE25E4ABAC00998C53 /* Dog.swift in Sources */,
+				25BA51B325E40BBB004495A9 /* CategoryService.swift in Sources */,
+				25BA51B625E40CA8004495A9 /* HomeViewPresenter.swift in Sources */,
+				253906AB25E4AA4100998C53 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		25BA518D25E4093B004495A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25BA518E25E4093B004495A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25BA519225E4093C004495A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25BA519325E4093C004495A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		25BA519625E4093C004495A9 /* Debug */ = {
@@ -283,6 +400,7 @@
 		};
 		25BA519925E4093C004495A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71FA3B95828504CC69DD855 /* Pods-LearnMVP-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +414,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "manhnn.LearnMVP-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		25BA519A25E4093C004495A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42004680FAFA2E9CD0CEC78 /* Pods-LearnMVP-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "manhnn.LearnMVP-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
