@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Dog: AnimalType {
+class Dog: NSObject {
     
     let name: String
     

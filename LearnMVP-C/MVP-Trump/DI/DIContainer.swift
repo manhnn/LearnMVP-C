@@ -10,17 +10,15 @@ import Swinject
 
 class DIContainer {
     static let shared = DIContainer()
-    let container = Container()
+    private let container = Container()
     
     init() {
         register()
     }
     
     func register() {
-        container.register(AnimalType.self) { _ in Cat(name: "mini") }
-        container.register(PetOwner.self) { r in
-            PetOwner(pet: r.resolve(AnimalType.self)!)
-        }
+        PresenterRegisterer.registerDependencyForPresenters(container: container)
+        DaoRegisterer.registerDependencyForDaos(Container: container)
     }
     
     // MARK: - Helper
